@@ -1481,10 +1481,10 @@ st.markdown(t["team_title"])
 st.write(t["team_subtitle"])
 
 members = [
-    {"img": "images/gitsi.jpeg", "name": "Gita Sion Nauli Simatupang", "sid": "004202400055", "role": "Leader", "Contribution": "Project Manager, Geometric Transformations Module"},
-    {"img": "images/bella.jpeg", "name": "Bella Amelia", "sid": "004202400050", "role": "Member", "Contribution": "Image Filtering Module, UI/UX Design"},
-    {"img": "images/chinta.jpeg", "name": "Chinta Amanda Dwi Putri Carelina", "sid": "004202400035", "role": "Member", "Contribution": "Background Removal Module, Image Upload & Download"},
-    {"img": "images/yessa.jpeg", "name": "Yessa Kireina Hanna Sevira", "sid": "004202400009", "role": "Member", "Contribution": "Histogram Module, Image Processing Functions"},
+    {"img": "images/gitsi.jpg", "name": "Gita Sion Nauli Simatupang", "sid": "004202400055", "role": "Leader", "Contribution": "Project Manager, Geometric Transformations Module"},
+    {"img": "images/bella.jpg", "name": "Bella Amelia", "sid": "004202400050", "role": "Member", "Contribution": "Image Filtering Module, UI/UX Design"},
+    {"img": "images/chinta.jpg", "name": "Chinta Amanda Dwi Putri Carelina", "sid": "004202400035", "role": "Member", "Contribution": "Background Removal Module, Image Upload & Download"},
+    {"img": "images/yessa.jpg", "name": "Yessa Kireina Hanna Sevira", "sid": "004202400009", "role": "Member", "Contribution": "Histogram Module, Image Processing Functions"},
 ]
 
 cols_row1 = st.columns(1, vertical_alignment="top")
@@ -1544,6 +1544,7 @@ for i in range(1, 4):
                 f"<div style='text-align:center;'>{t['team_contribution']} {m['Contribution']}</div>",
                 unsafe_allow_html=True,
             )
+
 
 
 
